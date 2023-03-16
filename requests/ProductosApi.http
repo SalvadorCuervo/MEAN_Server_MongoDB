@@ -1,0 +1,14 @@
+### GET request with a header
+GET http://{{host}}:{{port}}/api/productos
+Accept: application/json
+
+### Send POST request with json body
+POST http://localhost:4000/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Producto4",
+  "categoria": "Tecnologia",
+  "ubicacion": "Alamacén",
+  "precio": 2000
+}
